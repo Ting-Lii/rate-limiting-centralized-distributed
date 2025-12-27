@@ -1,0 +1,93 @@
+# Terraform files
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform plan files
+*.tfplan
+
+# Terraform lock file (optional - some teams commit this)
+# .terraform.lock.hcl
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+
+# Go binary files
+/bin/
+/dist/
+hw8
+hw8-ecommerce-api
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Log files
+*.log
+logs/
+
+# Test results
+test_results/
+*.jsonl
+
+# Docker
+.dockerignore
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# AWS credentials (if accidentally committed)
+.aws/
+aws-credentials
+
+# Build artifacts
+build/
+target/
+
